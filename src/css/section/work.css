@@ -1,0 +1,155 @@
+#work {
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    overflow: hidden;
+
+}
+
+.work_inner {
+    padding: 16px;
+}
+
+.work_title {
+    position: sticky;
+    top: -70px;
+    left: 0;
+    width: 100%;
+    height: 5vw;
+    font-size: 4vw;
+    line-height: 1;
+    font-family: var(--mainKor-font);
+    text-transform: uppercase;
+    color: var(--black);
+    border-bottom: .2vw solid var(--black100);
+
+}
+
+.work_title em{
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 2;
+    padding: 0 10px;
+}
+
+.work_wrap {
+    display: flex;
+    width: 4400px;
+}
+
+.work_item {
+    width: 290px;
+    height: 50vh;
+    padding: 4rem;
+    margin-right: 20px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+}
+.work_item .title{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.5rem 0 0.5rem 0;
+    font-weight: 700;
+    color: var(--black100);
+    border-bottom: 2px solid #000;
+    }
+.work_item .desc{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.work_item .num {
+      font-size: 2rem;
+      font-family: var(--mainNum-font);
+      
+}
+
+.work_item .img {
+   display: block;
+   margin: -20px;
+   transition: .35s;
+   margin-top: 10px;
+}
+.work_item:hover .img{
+    margin-top: 20px;
+}
+
+.work_item .site{
+    border: 1px solid var(--black100);
+display: block;
+text-align: center;
+padding: .5rem;
+width: 60%;
+margin: 0 auto ;    
+    }
+
+
+
+.work_item .img img{
+    filter: saturate(0%);
+  }
+
+
+.work_item:hover .img:hover img{
+    filter: saturate(100%);
+}
+
+
+
+
+
+.work_item.w1 {
+    background-color: var(--subBg100);
+}
+
+.work_item.w2 {
+    background-color: var(--subBg200);
+}
+
+.work_item.w3 {
+    background-color: var(--subBg300);
+}
+
+.work_item.w4 {
+    background-color: var(--subBg400);
+}
+
+.work_item.w5 {
+    background-color: var(--subBg500);
+}
+
+.work_item.w6 {
+    background-color: var(--subBg100);
+}
+
+.work_item.w7 {
+    background-color: var(--subBg200);
+}
+
+.work_item.w8 {
+    background-color: var(--subBg300);
+}
+
+.work_item.w9 {
+    background-color: var(--subBg400);
+}
+
+.work_item.w10 {
+    background-color: var(--subBg500);
+}
+
+@media screen and (max-width:768px) {
+    .work_title{
+        width: 100%;
+        margin-bottom: 60px;
+        font-size: 30px;
+        height: auto;
+        top: 68px;
+        background-color: var(--mainBg-color);
+    }
+    .work_item{
+        width: 1300px;
+        padding: 40px 30px;
+        height: auto;
+    }
+}
